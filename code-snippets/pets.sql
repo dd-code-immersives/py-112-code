@@ -5,6 +5,9 @@ CREATE DATABASE pets;
 --How to select a database to use
 USE pets;
 
+--Drop table if exists 
+DROP TABLE IF EXISTS cats;
+
 --How to create a table in the database 
 CREATE TABLE cats
 (
