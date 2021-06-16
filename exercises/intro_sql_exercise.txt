@@ -1,0 +1,6 @@
+1) In the database called pets, create a new table called dogs.
+2) add fields, id,name owner , birth ,type
+3) insert data from dog_data
+4) retrieve all the entries of dog 
+5) retrieve all the names of jeffs' dogs 
+6) remove all entries from table where the dog's name is Bootsy
