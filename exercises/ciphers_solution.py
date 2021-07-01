@@ -36,7 +36,29 @@ def n_cipher(message,n=4,direction='right'):
 		cipher_words.append(cipher_word)
 	return " ".join(cipher_words)
 
+
+
+a = ""
+LETTERS = 26
+def ceaser_cipher(C, CI):
+   b = ""
+   for i in C:
+      if(i.isupper()):
+         a = ord(i)
+         a += CI
+         if a > ord('Z'):
+            a = a - LETTERS
+         elif a < ord('A'):
+            a = a + LETTERS
+         b = b + chr(a)
+      else:
+         b = b + "-"
+   return b
+print(ceaser_cipher("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 23))
+
+
+
 if __name__ == '__main__':
 	print(cesear_cipher("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"))
-	#print(n_cipher("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"))
+	print(n_cipher("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"))
 
