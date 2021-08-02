@@ -1,0 +1,9 @@
+Create a mysql database from the following file and answer the following questions: 
+
+How many cities start with x, which ones? 
+How many cities have a space in the name? 
+What is the longest city name in the data set? 
+What is the shortest name in the data set? 
+
+BONUS: 
+How would you write a query that breaks the data into northern hemisphere / southern hemisphere?
